@@ -4,11 +4,12 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text('Rudra Miyani')),
-        body: const Center(
-          child: Text('Welcome'),
-        ),
+        appBar: AppBar(title:Text('Rudra Miyani'),),
+        body: Container (
+        color: Colors.red,
+        child: Center(
+          child: Text('meowww..... bhaiiii ', style: TextStyle(color: Colors.white),)),
+          ),
       ),
-    ),
-  );
+    ));
 }
